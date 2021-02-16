@@ -1,0 +1,26 @@
+# EA6000 AI Fundamentals 
+#	Professor: Joel Schwartz
+#                Catherine Richard
+
+# Support Vector Machines in Python
+# Updated: Feb 14, 2021
+# Data Source: Synthetic Health dataset - from Synthesia
+# 
+## SVM script (& train/test splicing)
+
+#pip install-- all the packages
+
+import nympy as np
+import pandas as pd
+import matplotlib as plt
+import os
+
+file_URL = os.path.join('URL') #githubrepo link copy
+
+df = pd.read_csv(file_URL, header=None)
+
+
+
+# Helpful Sources:
+#Python Machine Learning - S Raschka & V Mirjalili
+#Tour of Data Science 
